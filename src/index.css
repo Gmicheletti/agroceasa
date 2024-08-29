@@ -1,0 +1,23 @@
+:root {
+  background-color: #292E32;
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Fontes utilizadas no projeto */
+@font-face {
+  font-family: "Capriola";
+  src: url("./fonts/Capriola-Regular.eot");
+  src: url("./fonts/Capriola-Regular.woff") format("woff"),
+  url("./fonts/Capriola-Regular.woff2") format("woff2"),
+  url("./fonts/Capriola-Regular.ttf") format("ttf");
+}
