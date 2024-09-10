@@ -1,15 +1,13 @@
 
 import './App.css'
+import { Login } from './login/Login'
 
 export default function App() {
 
   return (
-    <section className='bg-black'>
-      <img src="./img/logotransparent.svg" className='logo'/>
-    
-      {/* <video id="heroVideo" autoPlay loop muted>
-            <source src="./video/chart.mp4" type="video/mp4" />
-      </video> */}
+    <section id='app'>
+
+      <Login />
     </section>
   )
 }

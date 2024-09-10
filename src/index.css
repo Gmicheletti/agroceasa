@@ -1,17 +1,63 @@
 :root {
   background-color: #292E32;
+  --verde: #28CC97;
+  --branco: #fff;
+  --cinza1: #9E9E9E;
+  --cinza2: #1F2227;
+  --cinza3: #292E32;
+  --cinza4: #15191C;
 
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
 }
+
+/* ----------- INPUTS ------------- */
+input:focus{
+  outline: none;
+}
+
+.inputStd{
+  height: 32px;
+  border-radius: 16px;
+  border: solid 1px var(--cinza1);
+  background-color: transparent;
+  font-family: "Capriola";
+  padding: 0 10px;
+  color: var(--cinza1);
+  transition: all ease-in-out 0.3s;
+}
+
+.inputStd::placeholder{
+  color: var(--cinza1);
+  opacity: 50%;
+}
+
+
+.inputStd:focus{
+  border: solid 1px var(--verde);
+  color: var(--verde);
+}
+
+/* ----------- BOTOES ------------- */
+
+.btn1{
+  background-color: var(--verde);
+  color: var(--cinza3);
+  border-radius: 16px;
+  height: 32px;
+  border: solid 1px transparent;
+  transition: all ease-in-out 0.3s;
+}
+
+.btn1:hover{
+  background-color: transparent;
+  border: solid 1px var(--verde);
+  color: var(--verde);
+  cursor: pointer;
+}
+
 
 /* Fontes utilizadas no projeto */
 @font-face {
