@@ -5,8 +5,9 @@ export  function Login() {
     return (
       <section id='sectionLogin'>
         <div className='loginLeft'>
-            <img id='loginBG' src="./img/bgLogin.jpg" alt="" />
             <img id='loginLogoG' src="./img/agroG.svg" alt="" />
+            <img id='loginBG' src="./img/bgLogin.jpg" alt="" />
+            
         </div>
         <div  className='loginRight'>
             <img src="./img/logoAC.svg" alt="" />

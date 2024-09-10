@@ -14,16 +14,26 @@
 
 #loginBG{
     height: 100%;
+    width: 100vw;
     object-fit: cover;
     opacity: 50%;
 }
 
 #loginLogoG{
-    position: relative;
+    position: absolute;
     left: -80px;
-    top: -800px;
+    top: 0px;
     margin: 0;
     z-index: 1;
+    height: 100vh !important;
+    transition: all ease-in-out 0.5s;
+}
+
+@media (max-width: 1025px){
+    #loginLogoG{
+        opacity: 10%;
+        z-index: -1;
+    }
 }
 
 
@@ -63,11 +73,11 @@
 #recSenha{
     font-family: 'Capriola';
     font-size: 12px;
-    color: var(--branco);
+    color: var(--cinza1);
     transition: all ease-in-out 0.5s;
 }
 
 #recSenha:hover{
-    color: var(--verde);
+    color: var(--branco);
     cursor: pointer;
 }
