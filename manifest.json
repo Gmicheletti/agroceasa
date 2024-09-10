@@ -1,0 +1,21 @@
+{
+    "name": "AgroCeasa",
+    "short_name": "AgroCeasa",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#292E32",
+    "theme_color": "#292E32",
+    "icons": [
+      {
+        "src": "public/img/logoAC.svg",
+        "sizes": "192x192",
+        "type": "image/svg"
+      },
+      {
+        "src": "public/img/logoAC.svg",
+        "sizes": "512x512",
+        "type": "image/svg"
+      }
+    ]
+  }
+  
