@@ -6,7 +6,6 @@
   --cinza2: #1F2227;
   --cinza3: #292E32;
   --cinza4: #15191C;
-
 }
 
 body {
@@ -59,7 +58,7 @@ input:focus{
 }
 
 
-/* Fontes utilizadas no projeto */
+/* Fontes utilizadas */
 @font-face {
   font-family: "Capriola";
   src: url("./fonts/Capriola-Regular.eot");
